@@ -1,0 +1,85 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+body
+{
+    font-family: 'Raleway',Arial, Helvetica, sans-serif;
+    font-size : 1.2em;
+    font-weight: 400;
+    margin: 0%;
+    background-color: magenta;
+}
+
+#bloc-page
+{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    margin-right: 35px;
+    background-color: brown;
+}
+
+header
+{
+    display: flex;
+    width: 100%;
+}
+
+
+#logo
+{
+    height: 45px;
+    padding-top: 27px;
+}
+
+.bouton_nav
+{
+  padding: 30px;
+  border-top-style: solid;
+  border-top-width: 3px;
+  border-top-color: white;
+}
+
+.bouton_nav:hover
+{
+    border-top-color:#0065FC;
+}
+
+.bouton_nav:hover a 
+{
+    color: #0065FC;
+}
+
+nav
+{
+    margin-left:auto;
+    display: flex;
+    font-size: 1em;
+    
+}
+
+nav a
+{
+    color: black;
+    text-decoration: none;
+}
+
+
+#inscription
+{
+ padding: 33px;
+ font-size: 1em;
+ font-weight: bold;
+}
+
+#inscription a
+{
+    color: #0065FC;
+    text-decoration: none;
+}
