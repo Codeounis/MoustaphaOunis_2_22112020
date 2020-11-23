@@ -22,7 +22,7 @@ body
     flex-direction: column;
     margin-left: 45px;
     margin-right: 35px;
-    background-color: brown;
+    background-color: rgb(106, 42, 165);
 }
 
 /* Définition du header*/
@@ -32,7 +32,6 @@ header
     display: flex;
     width: 100%;
 }
-
 
 #logo
 {
@@ -88,10 +87,17 @@ nav a
 
 /* Définition de la section Recherche hébergement*/
 
-section
+#trouver
 {
     background-color: orange;
 }
+
+
+#intro
+{
+    font-weight: 500;
+}
+
 
 #filtre
 {
@@ -118,7 +124,7 @@ section
     margin-top: 7px;
     background-color: white;
     height: 35px;
-    border-radius: 25%;
+    border-radius: 35%;
 }
 
 .noir
@@ -131,23 +137,18 @@ section
 
 .fa-money-bill-wave
 {
-    margin: 10px 0px 15px 60px;
-    padding-top: 10px;
     color: #0065FC ;
     background-color: violet;
 }
 
 .fa-child
 {
-    margin: 10px 0px 15px 60px;
-    padding-top: 10px;
+
     color: #0065FC;
 }
 
 .fa-heart
 {
-    margin: 10px 0px 15px 60px;
-    padding-top: 10px;
     color: #0065FC; 
 }
 
@@ -156,5 +157,123 @@ section
     color:#0065FC ;
     border-radius: 25px;
     background-color: #99D9EA ;
-    padding-left: 5px;
+}
+
+#info
+{
+    background-color:none;
+    font-size: 0.8.em;
+}
+
+.fa-info
+{
+    color: #0065FC;
+    border: solid 2px gray;
+    margin-left: 0px;
+    margin-top: 2px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+/*Mise en place Section hébergement + Aside les plus populaire*/
+
+#logement
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: yellow;
+    height: 650px;
+}
+
+/* Parti hébergement*/
+
+#hebergement
+{
+    background-color: darkblue;
+}
+
+.photoh
+{
+    background-color: gray;
+    margin-top: 2px;
+    height: 150px;
+}
+
+.photoh img
+{
+    height: 150px;
+    
+}
+
+
+/*Partie Populaires*/
+
+#populaire
+{
+    background-color: purple;
+}
+
+.photop
+{
+    background-color: gray;
+    margin-top: 2px;
+    height: 150px;
+    margin-top: 100px;
+}
+
+.photop img
+{
+    height: 150px;
+    
+}
+
+/*Partie activités*/
+
+#activite
+{
+    margin-top: 100px;
+    background-color:white;
+}
+
+.photoa img
+{
+   height: 150px;
+}
+
+/* Footer*/
+
+footer
+{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    height: 175px;
+    padding-left: 45px;
+    padding-right: 400px;
+}
+
+footer a
+{
+    font-family:'Raleway',Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+#propos a
+{
+    line-height: 25px;
+}
+
+#qualite a
+{
+    line-height: 25px ;
+}
+
+
+#assistance a
+{
+    line-height: 25px;
 }

@@ -9,10 +9,14 @@
         <script src="https://kit.fontawesome.com/49e23ff5b1.js" crossorigin="anonymous"></script>
         </head>
    
-   
-     <body>
+   <!--Définition body-->
+    
+    <body>
          <div id="bloc-page">
-             <header>
+           
+<!--Mise en place Header-->
+
+            <header>
                  <img id="logo" src="assets/img/Reservia.svg" alt="Logo de Reservia">
                  <nav>
                    <div class="bouton_nav"><a href="#hebergement">Hébergements</a></div> 
@@ -21,31 +25,87 @@
                  <div id="inscription"><a href="#">S'inscrire</a></div>
              </header>
 
-        <section>   <!--Refaire structure avec un formulaire-->
+  <!--Mise en place section recherche-->
+
+        <section id="trouver">   <!--Refaire structure avec un formulaire-->
             <h2>Trouvez votre hébergement pour des vacances de rêves</h2>
-                 <p>En plein centre ville ou en pleine nature</p>
+                 <p id="intro">En plein centre ville ou en pleine nature</p>
                  <i class="fas fa-map-marker-alt"><input type="text" id="ville" name="ville" placeholder="Marseille,France">
                 <input type="submit" value="Rechercher"></i>
                 <div id="recherche">
                  <p>Filtre</p>
                     <div id="filtre">
-                    <i class="fas fa-money-bill-wave"><span class="noir">Economique</span></i>
-                    <i class="fas fa-child"><span class="noir">Familial</span></i>
-                    <i class="fas fa-heart"><span class="noir">Romantique</span></i>
+                    <div class="icone"><i class="fas fa-money-bill-wave"></i><span class="noir">Economique</span></div>
+                    <div class="icone"><i class="fas fa-child"></i><span class="noir">Familial</span></div>
+                    <div class="icone"><i class="fas fa-heart"></i><span class="noir">Romantique</span></div>
                     <div class="icone"><i class="fas fa-dog"></i><span class="noir">Animaux autorisés</span></div>
                     </div>
                 </div>
+                <p id="info"><i class="fas fa-info"></i>Plus de 500 logements sont disponible dans cette ville</p>
          </section>
 
+         <!-- Structure a terminer en CSS-->
 
-        
-        
-        </div>
+<!-- Mise en place section hébergement + Aside les plus populaires-->
 
+            <section id="logement">
+
+                <div id="hebergement"> <!-- Partie hébergement-->
+                    <h2>Hébergements à Marseille</h2>
+                        <div class="photoh"><img src="assets/img/large/hebergement1.jpg" alt="photo hebergement">
+                        <h3>Auberge la cannebière</h3>
+                        <p>Nuit à partir de 25 €</br>
+                       <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </p> 
+                        <p>Afficher plus</p>   
+                    </div>
+                </div>
+               
+
+
+                <div id="populaire"> <!--Partie populaire-->
+                <h2>Les plus populaires<i class="fas fa-chart-line"></i></h2>
+                    <div class="photop"><img src="assets/img/large/hebergement7.jpg" alt="photo activité">
+                    <h3>Hôtel Le soleil du matin</h3>
+                    <p>Nuit à partir de 128€ </br>
+                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </p>
+                 </div>
+             </div>
+             </section> 
+
+   <!--Mise en place Section activité-->       
+          
+             <section id="activite">
+                 <h2>Activités à Marseille</h2>
+                 <div class="photoa"><img src="assets/img/large/activite1.jpg" alt="photo activité"><figcaption>Vieux Port </figcaption></div>
+
+             </section>
+         </div>
+        
+        <!--Mise en place Footer-->
+     <footer>
+
+         <div id="propos">
+            <h2>A propos</h2>
+            <p><a href="#">Fonctionnement du site</a></br>
+             <a href="#">Conditions générales de vente</a></br>
+             <a href="#">Données et Confidentialité</a></p>
+        </div>  
+
+        <div id="qualite">
+           <p><h2>Nos hébergements</h2>
+            <a href="#">Charte qualité</a></br>
+            <a href="#">Soumettre votre hôtel</a></p>
+         </div>
+
+         <div id="assistance">
+            <p><h2>Assistance</h2>
+             <a href="#">Centre d'aide</a></br>
+             <a href="#">Nous contacter</a></p>
+         </div>
+
+     </footer>
+   
     </body>
-  
-  
-  
-  
-
-    </html>
+ </html>
