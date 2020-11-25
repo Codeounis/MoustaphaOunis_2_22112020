@@ -12,7 +12,7 @@ body
     font-size : 1em;
     font-weight: 400;
     margin: 0%;
-    background-color: magenta;
+    background-color: none;
 }
 
 #bloc-page
@@ -20,9 +20,9 @@ body
     width: auto;
     display: flex;
     flex-direction: column;
-    margin-left: 45px;
-    margin-right: 35px;
-    background-color: rgb(106, 42, 165);
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color:none;
 }
 
 /* Définition du header*/
@@ -89,13 +89,17 @@ nav a
 
 #trouver
 {
-    background-color: orange;
+    background-color: none;
+    margin-top: 5px;
 }
+
 
 
 #intro
 {
     font-weight: 500;
+    margin-top: -10px;
+    margin-bottom: 25px;
 }
 
 #champ
@@ -125,9 +129,11 @@ nav a
     height: 50px;
     width: 220px;
     padding-left: 20px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-family: 'Raleway',Arial, Helvetica, sans-serif;
     font-weight: bold;
+    border-top: solid #F2F2F2 2px;
+    border-bottom: solid #F2F2F2 2px;
 }
 
 #champr input:focus
@@ -152,40 +158,68 @@ nav a
 }
 */
 
-/* boutton en bouton*/
-#buttonr button
+/* boutton Ordinateur et tablette*/
+#buttonrd button
 {
     border: none;
     height: 50px;
     width: 150px;
     background-color:#0065FC ;
     font-family: 'Raleway',Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+/* Bouton Téléphone mobile*/
+
+
+
+
+#buttonrm button
+{
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-color:#0065FC ;
+    font-family: 'Raleway',Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     font-weight: bold;
     color: white;
     border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    display: none;
 }
-
 
 /*ition filtres de recherche*/
-
-#filtres
-{
-    background-color:white;
-    display: flex;
-}
 
 #recherche
 {
     display: flex;
     flex-direction: row;
+    background-color: green;
 }
 
 #recherche p
 {
     background-color: rosybrown;
     font-weight: bold;
+    font-size: 1.2em;
+    padding-left: 8px;
+    margin-right:23px;
 }
+
+
+#filtres
+{
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5px;
+}
+
 
 .filtre
 {
@@ -194,7 +228,7 @@ nav a
     margin-left: 15px;
     margin-top: 7px;
     background-color: white;
-    height: 35px;
+    height: 32px;
     border-radius: 30px;
     border: solid 2px #F2F2F2;
     border-left: none;
@@ -225,26 +259,38 @@ font-size: 0.75em;
     font-weight: bold;
     margin-left: 15px;
     margin-right: 15px;
-    font-size: 20px;
+    font-size: 18px;
 }
-
 
 #info
 {
-    background-color:none;
-    font-size: 0.8.em;
+    display: flex;
+    background-color:white;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
-.fa-info
+#info p
 {
-    color: #0065FC;
-    border: solid 2px gray;
-    margin-left: 0px;
-    margin-top: 2px;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
+    text-align: center;
+    font-weight: 400;
 }
+
+#pictoi
+{
+    height: 25px;
+    width: 25px;
+    color: #0065FC;
+    border-radius: 50%;
+    border: solid 2px #F2F2F2;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 12.5px;
+    margin-right: 13px;
+    font-size: 12px;
+}
+
+
 /*Mise en place Section hébergement + Aside les plus populaire*/
 
 #logement
