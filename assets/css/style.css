@@ -9,7 +9,7 @@
 body
 {
     font-family: 'Raleway',Arial, Helvetica, sans-serif;
-    font-size : 1.2em;
+    font-size : 1em;
     font-weight: 400;
     margin: 0%;
     background-color: magenta;
@@ -98,10 +98,80 @@ nav a
     font-weight: 500;
 }
 
-
-#filtre
+#champ
 {
-    background-color: green;
+    display: flex;
+    height: 50px;
+    width : 420px;
+   /* border: solid 2px red;*/
+}
+
+#pictor
+{
+    font-size: 1.2em;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: center;
+    background-color:  #F2F2F2;
+    border-radius: 25% 0 0 25%;
+}
+
+#champr input
+{
+    border: none;
+    vertical-align: center;
+    height: 50px;
+    width: 220px;
+    padding-left: 20px;
+    font-size: 1.2em;
+    font-family: 'Raleway',Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#champr input:focus
+{
+    outline: none;
+}
+
+
+#champr input::placeholder
+{
+    color:black;
+    
+}
+
+/* bouton en input
+#buttonr input
+{
+    border: none;
+    height: 50px;
+    width: 150px;
+    background-color:#0065FC ;
+}
+*/
+
+/* boutton en bouton*/
+#buttonr button
+{
+    border: none;
+    height: 50px;
+    width: 150px;
+    background-color:#0065FC ;
+    font-family: 'Raleway',Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    border-radius: 0 10px 10px 0;
+}
+
+
+/*ition filtres de recherche*/
+
+#filtres
+{
+    background-color:white;
     display: flex;
 }
 
@@ -117,15 +187,36 @@ nav a
     font-weight: bold;
 }
 
-.icone
+.filtre
 {
-    padding-top: 10px;
+    display: flex;
+    align-items: center;
     margin-left: 15px;
     margin-top: 7px;
     background-color: white;
     height: 35px;
-    border-radius: 35%;
+    border-radius: 30px;
+    border: solid 2px #F2F2F2;
+    border-left: none;
 }
+
+.picto
+{
+text-align: center;
+vertical-align: center;
+line-height: 35px;
+height: 35px;
+width: 35px;
+background-color:#DEEBFF ;
+border-radius: 50%;
+font-size: 0.75em;
+}
+
+.picto i
+{
+    color: #0065FC ;;
+}
+
 
 .noir
 {
@@ -133,31 +224,10 @@ nav a
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
 }
 
-.fa-money-bill-wave
-{
-    color: #0065FC ;
-    background-color: violet;
-}
-
-.fa-child
-{
-
-    color: #0065FC;
-}
-
-.fa-heart
-{
-    color: #0065FC; 
-}
-
-.fa-dog
-{
-    color:#0065FC ;
-    border-radius: 25px;
-    background-color: #99D9EA ;
-}
 
 #info
 {
@@ -182,7 +252,7 @@ nav a
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: yellow;
+    background-color:yellow;
     height: 650px;
 }
 
@@ -190,22 +260,55 @@ nav a
 
 #hebergement
 {
-    background-color: darkblue;
+    background-color: darkblue; 
+    border-radius: 20px 20px 20px 20px;
+    width: 1200px;
 }
+
+#hebergement h2
+{
+margin: 25px 0 0 35px;
+font-size: 1.2em;
+}
+
+#orga_heber
+{
+    display: flex;
+    background-color: palegreen;
+    flex-wrap: wrap;
+}
+
 
 .photoh
 {
     background-color: gray;
-    margin-top: 2px;
+    margin-top: 0px;
     height: 150px;
+    width: 300px;
+    position: relative;
+    border-radius: 25px 25px 0px 0px;
 }
 
-.photoh img
+.etiquette
 {
-    height: 150px;
+    font-size: 0.8em;
+    background-color: white;
+    margin: 0px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 40px;
+    bottom: 0;
+    line-height: 5px;
+    border-radius: 25px 25px 25px 25px;
+    border: solid 2px white;
     
 }
 
+#afficher
+{
+    position: absolute;
+    bottom: 0;
+}
 
 /*Partie Populaires*/
 
@@ -234,6 +337,7 @@ nav a
 {
     margin-top: 0px;
     background-color:white;
+    height: 600px;
 }
 
 .photoa img
