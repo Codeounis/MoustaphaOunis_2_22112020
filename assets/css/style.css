@@ -12,7 +12,7 @@ body
     font-size : 1em;
     font-weight: 400;
     margin: 0%;
-    background-color: none;
+    background-color: pink;
 }
 
 #bloc-page
@@ -199,12 +199,12 @@ nav a
 {
     display: flex;
     flex-direction: row;
-    background-color: green;
+    background-color: none;
 }
 
 #recherche p
 {
-    background-color: rosybrown;
+    background-color: none;
     font-weight: bold;
     font-size: 1.2em;
     padding-left: 8px;
@@ -234,6 +234,11 @@ nav a
     border-left: none;
 }
 
+.filtre:hover
+{
+    background-color: #0065FC;
+}
+
 .picto
 {
 text-align: center;
@@ -261,6 +266,7 @@ font-size: 0.75em;
     margin-right: 15px;
     font-size: 18px;
 }
+
 
 #info
 {
@@ -299,7 +305,7 @@ font-size: 0.75em;
     flex-direction: row;
     justify-content: space-between;
     background-color:yellow;
-    height: 650px;
+    height: auto;
 }
 
 /* Parti hébergement*/
@@ -325,43 +331,65 @@ font-size: 1.2em;
 }
 
 
-.photoh
-{
-    background-color: gray;
-    margin-top: 0px;
-    height: 150px;
-    width: 300px;
-    position: relative;
-    border-radius: 25px 25px 0px 0px;
-}
-
-.etiquette
-{
-    font-size: 0.8em;
-    background-color: white;
-    margin: 0px;
-    width: 300px;
-    margin-top: 20px;
-    margin-left: 40px;
-    bottom: 0;
-    line-height: 5px;
-    border-radius: 25px 25px 25px 25px;
-    border: solid 2px white;
-    
-}
-
 #afficher
 {
     position: absolute;
     bottom: 0;
 }
 
+/* Test card hébergement*/
+
+.card
+{
+    background-color:white;
+    height: 195px;
+    width: 232px;
+    border-radius: 20px;
+    background: white;
+    border-top: solid 2px white;
+    border-left: solid 2px white;
+    border-right: solid 2px white;
+    overflow: hidden;
+    
+}
+
+
+.picturecard
+{
+    height: 155px;
+    width: 235px;
+    clip-path: inset(24px 0 23px 0);
+    margin: -27px 2px 0px 0px;
+}
+
+
+
+
+
+.card h4
+{
+margin-top: -22px;
+}
+
+.card p
+{
+    background-color: orange;
+    font-size: 15px;
+    font-weight: lighter;
+    padding-top:  10px; ;
+}
+
+.star
+{
+    background-color: orchid;
+}
+.
 /*Partie Populaires*/
 
-#populaire
+/*#populaire
 {
     background-color: purple;
-}
+}*/
 
 .photop
 {
