@@ -303,32 +303,41 @@ font-size: 0.75em;
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     background-color:yellow;
     height: auto;
+    margin-top: 20px;
 }
 
 /* Parti hébergement*/
 
 #hebergement
 {
-    background-color: darkblue; 
+    background-color: #F2F2F2; 
     border-radius: 20px 20px 20px 20px;
-    width: 1200px;
+    width: 840px;
+    height: 625px;
+    margin-left: 0px;
+    padding-left: 40px;
 }
 
 #hebergement h2
 {
-margin: 25px 0 0 35px;
-font-size: 1.2em;
+margin: 35px 0 0 0px;
+font-size: 1.3em;
 }
 
 #orga_heber
 {
     display: flex;
-    background-color: palegreen;
+    background-color: #F2F2F2;
     flex-wrap: wrap;
 }
+
+#orga_heber a
+{
+    text-decoration: none;
+}
+
 
 
 #afficher
@@ -346,12 +355,15 @@ font-size: 1.2em;
     width: 232px;
     border-radius: 20px;
     background: white;
-    border-top: solid 2px white;
-    border-left: solid 2px white;
-    border-right: solid 2px white;
+    border-top: solid 4px white;
+    border-left: solid 4px white;
+    border-right: solid 4px white;
     overflow: hidden;
+    margin-top: 25px;
+    margin-right: 30px;
     
 }
+
 
 
 .picturecard
@@ -362,38 +374,52 @@ font-size: 1.2em;
     margin: -27px 2px 0px 0px;
 }
 
-
-
-
-
-.card h4
+.description
 {
-margin-top: -22px;
-}
-
-.card p
-{
-    background-color: orange;
-    font-size: 15px;
-    font-weight: lighter;
-    padding-top:  10px; ;
+    padding-left: 15px;
 }
 
 .star
 {
-    background-color: orchid;
+    color: #0065FC;
+    font-size: 13px;
+    margin-top: -5px;
 }
-.
+
+.star4
+{
+    color: #F2F2F2;
+}
+
+.star3
+{
+    color: #F2F2F2;
+}
+
+
+.card h4
+{
+margin-top: -18px;
+}
+
+.card p
+{
+    font-size: 15px;
+    font-weight: lighter;
+    padding-top:  4px; ;
+}
+
+
 /*Partie Populaires*/
 
-/*#populaire
+#populaire
 {
-    background-color: purple;
-}*/
+    background-color: blue;
+}
 
 .photop
 {
-    background-color: gray;
+    background-color: green;
     margin-top: 2px;
     height: 150px;
     margin-top: 100px;
