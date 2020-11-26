@@ -297,7 +297,7 @@ font-size: 0.75em;
 }
 
 
-/*Mise en place Section hébergement + Aside les plus populaire*/
+/*Partie Hebergement + Populaire*/
 
 #logement
 {
@@ -314,10 +314,10 @@ font-size: 0.75em;
 {
     background-color: #F2F2F2; 
     border-radius: 20px 20px 20px 20px;
-    width: 840px;
+    width: 820px;
     height: 625px;
-    margin-left: 0px;
     padding-left: 40px;
+    margin-right: 40px;
 }
 
 #hebergement h2
@@ -336,17 +336,9 @@ font-size: 1.3em;
 #orga_heber a
 {
     text-decoration: none;
+    color: black;
 }
 
-
-
-#afficher
-{
-    position: absolute;
-    bottom: 0;
-}
-
-/* Test card hébergement*/
 
 .card
 {
@@ -363,7 +355,6 @@ font-size: 1.3em;
     margin-right: 30px;
     
 }
-
 
 
 .picturecard
@@ -415,20 +406,32 @@ margin-top: -18px;
 #populaire
 {
     background-color: blue;
+    height: 625px;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
 }
 
-.photop
+.cardp
 {
     background-color: green;
     margin-top: 2px;
     height: 150px;
     margin-top: 100px;
+    display: flex;
 }
 
-.photop img
+.descriptiond
+{
+    background-color:violet;
+}
+
+
+.populairecard
 {
     height: 150px;
-    
+    width: 200px;
+
 }
 
 /*Partie activités*/
