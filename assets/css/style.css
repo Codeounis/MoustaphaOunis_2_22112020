@@ -12,7 +12,7 @@ body
     font-size : 1em;
     font-weight: 400;
     margin: 0%;
-    background-color: pink;
+    background-color: none;
 }
 
 #bloc-page
@@ -22,7 +22,7 @@ body
     flex-direction: column;
     margin-left: 90px;
     margin-right: 50px;
-    background-color:orangered;
+    background-color:none;
 }
 
 /* Définition du header*/
@@ -169,7 +169,7 @@ nav a
     font-size: 18px;
     font-weight: bold;
     color: white;
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 15px 15px 0;
     cursor: pointer;
 }
 
@@ -188,7 +188,7 @@ nav a
     font-size: 1.2em;
     font-weight: bold;
     color: white;
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 15px 15px 0;
     cursor: pointer;
     display: none;
 }
@@ -200,6 +200,7 @@ nav a
     display: flex;
     flex-direction: row;
     background-color: none;
+    margin-top: 15px;
 }
 
 #recherche p
@@ -253,7 +254,7 @@ font-size: 0.75em;
 
 .picto i
 {
-    color: #0065FC ;;
+    color: #0065FC ;
 }
 
 
@@ -303,12 +304,30 @@ font-size: 0.75em;
 {
     display: flex;
     flex-direction: row;
-    background-color:yellow;
+    background-color:none;
     height: 625px;
     width: 1340px;
     margin-top: 20px;
     margin-bottom: 40px;
 }
+
+#logement a
+{
+    color: black;
+    text-decoration:none;
+}
+
+#logement a:hover
+{
+    text-decoration:none;
+}
+
+#logement a:visited
+{
+    color: purple;
+}
+
+
 
 /* Parti hébergement*/
 
@@ -321,6 +340,8 @@ font-size: 0.75em;
     padding-left: 40px;
     margin-right: 40px;
 }
+
+
 
 #hebergement h2
 {
@@ -335,12 +356,6 @@ font-size: 1.3em;
     flex-wrap: wrap;
 }
 
-#orga_heber a
-{
-    text-decoration: none;
-    color: black;
-}
-
 
 .card
 {
@@ -348,13 +363,23 @@ font-size: 1.3em;
     height: 195px;
     width: 232px;
     border-radius: 20px;
-    background: white;
-    border-top: solid 4px white;
+    /*background: white;*/
+   /* border-top: solid 4px white;
     border-left: solid 4px white;
-    border-right: solid 4px white;
+    border-right: solid 4px white;*/
+    border: solid 4px white;
     overflow: hidden;
     margin-top: 25px;
     margin-right: 30px;   
+    box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
+    transition: all 150ms ease-out;
+}
+
+.card:hover
+{
+    background-color:#DEEBFF;
+    border-color: #DEEBFF;
+    box-shadow: 0px 4px 10px 3px #C4c4c4;
 }
 
 
@@ -371,6 +396,8 @@ font-size: 1.3em;
     padding-left: 15px;
 }
 
+
+
 .star
 {
     color: #0065FC;
@@ -378,10 +405,12 @@ font-size: 1.3em;
     margin-top: -5px;
 }
 
+
 .star4
 {
     color: #F2F2F2;
 }
+
 
 .star3
 {
@@ -389,10 +418,12 @@ font-size: 1.3em;
 }
 
 
+
 .card h4
 {
 margin-top: -18px;
 }
+
 
 .card p
 {
@@ -400,6 +431,9 @@ margin-top: -18px;
     font-weight: lighter;
     padding-top:  4px; ;
 }
+
+
+
 
 
 /*Partie Populaires*/
@@ -415,6 +449,7 @@ margin-top: -18px;
     margin-left: 20px;
     border-radius: 20px;
 }
+
 
 
 
@@ -443,10 +478,22 @@ margin-top: -18px;
     margin-top: 35px;
     border-radius: 20px;
     display: flex;
-    border-top: solid 4px white;
+    /*border-top: solid 4px white;
     border-left: solid 4px white;
-    border-bottom: solid 4px white;
+    border-bottom: solid 4px white;*/
+    border: solid 4px white;
     overflow: hidden;
+    box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
+    transition: all 150ms ease-out;
+}
+
+
+
+.cardp:hover
+{
+    background-color: #DEEBFF;
+    box-shadow: 0px 4px 10px 3px #C4c4c4;
+    border-color: #DEEBFF;
 }
 
 .populairecard
@@ -456,6 +503,7 @@ margin-top: -18px;
     clip-path:inset(6px 40px 12px 40px);
     margin: -7px -30px -10px -40px ;
 }
+
 
 .descriptiond
 {
@@ -475,8 +523,13 @@ margin-top: -18px;
 #activite
 {
     margin-top: 0px;
-    background-color: green;
+    background-color: none;
     height: 600px;
+}
+
+#activite h2
+{
+    font-size: 1.3em;
 }
 
 .photoa img
