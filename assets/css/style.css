@@ -17,12 +17,12 @@ body
 
 #bloc-page
 {
-    width: auto;
+    width: 1340px;
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 90px;
     margin-right: 50px;
-    background-color:none;
+    background-color:orangered;
 }
 
 /* Définition du header*/
@@ -304,8 +304,10 @@ font-size: 0.75em;
     display: flex;
     flex-direction: row;
     background-color:yellow;
-    height: auto;
+    height: 625px;
+    width: 1340px;
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 /* Parti hébergement*/
@@ -352,8 +354,7 @@ font-size: 1.3em;
     border-right: solid 4px white;
     overflow: hidden;
     margin-top: 25px;
-    margin-right: 30px;
-    
+    margin-right: 30px;   
 }
 
 
@@ -405,41 +406,76 @@ margin-top: -18px;
 
 #populaire
 {
-    background-color: blue;
+    background-color: #F2F2F2;
     height: 625px;
-    width: 480px;
+    width: 380px;
     display: flex;
     flex-direction: column;
+    padding-left: 40px;
+    margin-left: 20px;
+    border-radius: 20px;
 }
+
+
+
+#populairet
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 -25px 0;
+    font-size: 15px;
+    padding-right: 40px;
+}
+
+#populairet i
+{
+    font-size: 23px;
+    margin: 20px -11px 0 0;
+}
+
+
 
 .cardp
 {
-    background-color: green;
-    margin-top: 2px;
-    height: 150px;
-    margin-top: 100px;
+    background-color:white;
+    height: 130px;
+    width: 347px;
+    margin-top: 35px;
+    border-radius: 20px;
     display: flex;
+    border-top: solid 4px white;
+    border-left: solid 4px white;
+    border-bottom: solid 4px white;
+    overflow: hidden;
 }
-
-.descriptiond
-{
-    background-color:violet;
-}
-
 
 .populairecard
 {
     height: 150px;
     width: 200px;
-
+    clip-path:inset(6px 40px 12px 40px);
+    margin: -7px -30px -10px -40px ;
 }
+
+.descriptiond
+{
+    padding-left: 20px;
+    margin-top: -9px;
+}
+
+.descriptiond p
+{
+    margin-top: -15px;
+    margin-bottom: 35px;
+}
+
 
 /*Partie activités*/
 
 #activite
 {
     margin-top: 0px;
-    background-color:white;
+    background-color: green;
     height: 600px;
 }
 
