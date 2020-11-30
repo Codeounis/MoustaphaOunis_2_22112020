@@ -523,135 +523,127 @@ margin-bottom: -15px;
     flex-direction: column;
 }
 
+#activite a
+{
+    height:auto;
+    width: auto;
+}
 #activite h2
 {
     font-size: 1.3em;
+    margin-bottom: 2px;
 }
 
 #orga_activite
 {
     display: flex;
     background-color: yellow;
+    margin-bottom: 40px;
+    
+}
+
+#orga_activite a
+{
+    text-decoration: none;
+    color: black;
 }
 
 /* background-image: url("../img/small/activite1.jpg");
    background-repeat: no-repeat;
    background-size: 252px 80px ; */    /* mise en place pour mobile */
 
+figure p
+{
+    width: 248px;
+    height: 34px;
+    padding-left: 20px;
+    padding-top: 14px;
+    font-family: 'Raleway'Arial, Helvetica, sans-serif;
+    font-weight: bolder;  
+    margin: 0 0 0 0;
+}
 
+/* .packact
+{
+    margin-left:0px;
+    padding-left: 0px;
+    width: auto;
+} */
 
 
 .photoa1
 {
-    height: 340px;
-    width: 252px;
-    position: relative;
-    border: solid red 4px;
-    border-radius: 25px 25px 25px 25px;
+    height: auto;
+    width: auto;
+    border-radius: 20px 20px 20px 20px;
     background-color:white; 
+    margin-left: 0px;
+    margin-right: 40px;
 }
  
 .photoa1 img
 {
-    height: 300px;
-    width: 252px;
-    border-radius: 25px 25px 0px 0px;
+    height: 380px;
+    width: 305px;
+    border-radius: 20px 20px 0px 0px;
 } 
 
 .photoa2
 {
-    height: 150px;
-    width: 252px;
-    position: relative;
-    border: solid red 4px;
-    border-radius: 25px 25px 25px 25px;
-    background-color:white;
+    height: auto;
+    width: auto;
+    border-radius: 20px 20px 20px 20px;
+    background-color:white; 
+    margin-left: 0px;
+    margin-right: 40px;
 }
 
 .photoa2 img
 {
     height: 112px;
-    width: 246px;
-    border-radius: 25px 25px 0px 0px;
+    width: 305px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .photoa3
 {
-    height: 120px;
-    width: 252px;
-    position: relative;
-    border: solid red 4px;
-    border-radius: 25px 25px 25px 25px;
-    background-color:white;
+    height: auto;
+    width: auto;
+    border-radius: 20px 20px 20px 20px;
+    background-color:white; 
+    margin-left: 0px;
+    margin-right: 40px;
 }
 
 .photoa3 img
 {
     height: 112px;
-    width: 246px;
-    border-radius: 25px 25px 0px 0px;
+    width: 305px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .photoa4
 {
-    height: 340px;
-    width: 252px;
-    position: relative;
-    border: solid red 4px;
-    border-radius: 25px 25px 25px 25px;
+    height: auto;
+    width: auto;
+    border-radius: 20px 20px 20px 20px;
     background-color:white; 
+    margin-left: 0px;
+    margin-right: 40px;
 }
  
 .photoa4 img
 {
-    height: 300px;
-    width: 252px;
-    border-radius: 25px 25px 0px 0px;
+    height: 380px;
+    width: 305px;
+    border-radius: 20px 20px 0px 0px;
 } 
 
-.photoa5
-{
-    height: 120px;
-    width: 252px;
-    position: relative;
-    border: solid red 4px;
-    border-radius: 25px 25px 25px 25px;
-    background-color:white;
-}
-
-.photoa5 img
-{
-    height: 112px;
-    width: 246px;
-    border-radius: 25px 25px 0px 0px;
-}
-
-.photoa6
-{
-    height: 120px;
-    width: 252px;
-    position: relative;
-    border: solid red 4px;
-    border-radius: 25px 25px 25px 25px;
-    background-color:white;
-}
-
-.photoa6 img
-{
-    height: 112px;
-    width: 246px;
-    border-radius: 25px 25px 0px 0px;
-}
 
 
 
-figcaption
-{
-    position: absolute;
-    width: 248px;
-    bottom: 5px;
-    padding: 5px;
-}
+
+
 
 /* Footer*/
 
