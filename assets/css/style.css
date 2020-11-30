@@ -297,7 +297,7 @@ font-size: 0.75em;
     display: flex;
     flex-direction: row;
     background-color:none;
-    height: 625px;
+    height: auto;
     width: 1340px;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -329,7 +329,7 @@ font-size: 0.75em;
     background-color: #F2F2F2; 
     border-radius: 20px 20px 20px 20px;
     width: 900px;
-    height: 625px;
+    height: 605px;
     padding-left: 40px;
     margin-right: 40px;
 }
@@ -375,7 +375,7 @@ font-size: 1.3em;
 .picturecard
 {
     height: 120px;
-    width: 250px;
+    width: 240px;
 }
 
 .description
@@ -419,7 +419,10 @@ margin-bottom: -15px;
     padding-top:  4px; ;
 }
 
-
+#cardplus
+{
+    margin-top: 15px;
+}
 
 
 
@@ -428,7 +431,7 @@ margin-bottom: -15px;
 #populaire
 {
     background-color: #F2F2F2;
-    height: 625px;
+    height: auto;
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -514,8 +517,10 @@ margin-bottom: -15px;
 #activite
 {
     margin-top: 0px;
-    background-color: none;
-    height: 600px;
+    background-color: khaki;
+    height: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 #activite h2
@@ -523,9 +528,129 @@ margin-bottom: -15px;
     font-size: 1.3em;
 }
 
-.photoa img
+#orga_activite
 {
-   height: 150px;
+    display: flex;
+    background-color: yellow;
+}
+
+/* background-image: url("../img/small/activite1.jpg");
+   background-repeat: no-repeat;
+   background-size: 252px 80px ; */    /* mise en place pour mobile */
+
+
+
+
+.photoa1
+{
+    height: 340px;
+    width: 252px;
+    position: relative;
+    border: solid red 4px;
+    border-radius: 25px 25px 25px 25px;
+    background-color:white; 
+}
+ 
+.photoa1 img
+{
+    height: 300px;
+    width: 252px;
+    border-radius: 25px 25px 0px 0px;
+} 
+
+.photoa2
+{
+    height: 150px;
+    width: 252px;
+    position: relative;
+    border: solid red 4px;
+    border-radius: 25px 25px 25px 25px;
+    background-color:white;
+}
+
+.photoa2 img
+{
+    height: 112px;
+    width: 246px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.photoa3
+{
+    height: 120px;
+    width: 252px;
+    position: relative;
+    border: solid red 4px;
+    border-radius: 25px 25px 25px 25px;
+    background-color:white;
+}
+
+.photoa3 img
+{
+    height: 112px;
+    width: 246px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.photoa4
+{
+    height: 340px;
+    width: 252px;
+    position: relative;
+    border: solid red 4px;
+    border-radius: 25px 25px 25px 25px;
+    background-color:white; 
+}
+ 
+.photoa4 img
+{
+    height: 300px;
+    width: 252px;
+    border-radius: 25px 25px 0px 0px;
+} 
+
+.photoa5
+{
+    height: 120px;
+    width: 252px;
+    position: relative;
+    border: solid red 4px;
+    border-radius: 25px 25px 25px 25px;
+    background-color:white;
+}
+
+.photoa5 img
+{
+    height: 112px;
+    width: 246px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.photoa6
+{
+    height: 120px;
+    width: 252px;
+    position: relative;
+    border: solid red 4px;
+    border-radius: 25px 25px 25px 25px;
+    background-color:white;
+}
+
+.photoa6 img
+{
+    height: 112px;
+    width: 246px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+
+
+figcaption
+{
+    position: absolute;
+    width: 248px;
+    bottom: 5px;
+    padding: 5px;
 }
 
 /* Footer*/
