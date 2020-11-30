@@ -11,8 +11,7 @@ body
     font-family: 'Raleway',Arial, Helvetica, sans-serif;
     font-size : 1em;
     font-weight: 400;
-    margin: 0%;
-    background-color: green;
+    background-color: none;
 }
 
 #bloc-page
@@ -20,9 +19,9 @@ body
     width: 1340px;
     display: flex;
     flex-direction: column;
-    margin-left: 90px;
-    margin-right: 50px;
-    background-color:pink;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:none;
 }
 
 /* Définition du header*/
@@ -517,7 +516,7 @@ margin-bottom: -15px;
 #activite
 {
     margin-top: 0px;
-    background-color: khaki;
+    background-color: none;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -537,7 +536,7 @@ margin-bottom: -15px;
 #orga_activite
 {
     display: flex;
-    background-color: yellow;
+    background-color:none;
     margin-bottom: 40px;
     
 }
@@ -555,7 +554,7 @@ margin-bottom: -15px;
 figure p
 {
     width: 248px;
-    height: 34px;
+    height: 35px;
     padding-left: 20px;
     padding-top: 14px;
     font-family: 'Raleway'Arial, Helvetica, sans-serif;
@@ -579,6 +578,7 @@ figure p
     background-color:white; 
     margin-left: 0px;
     margin-right: 40px;
+    box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
 }
  
 .photoa1 img
@@ -596,11 +596,12 @@ figure p
     background-color:white; 
     margin-left: 0px;
     margin-right: 40px;
+    box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
 }
 
 .photoa2 img
 {
-    height: 112px;
+    height: 182px;
     width: 305px;
     border-radius: 20px 20px 0px 0px;
 }
@@ -613,6 +614,8 @@ figure p
     background-color:white; 
     margin-left: 0px;
     margin-right: 40px;
+    margin-top: 35px;
+    box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
 }
 
 .photoa3 img
@@ -630,6 +633,7 @@ figure p
     background-color:white; 
     margin-left: 0px;
     margin-right: 40px;
+    box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
 }
  
 .photoa4 img
@@ -637,12 +641,43 @@ figure p
     height: 380px;
     width: 305px;
     border-radius: 20px 20px 0px 0px;
+    
 } 
 
+.photoa5
+{
+    height: auto;
+    width: auto;
+    border-radius: 20px 20px 20px 20px;
+    background-color:white; 
+    margin-left: 0px;
+    box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
+}
 
+.photoa5 img
+{
+    height: 140px;
+    width: 305px;
+    border-radius: 20px 20px 0px 0px;
+}
 
+.photoa6
+{
+    height: auto;
+    width: auto;
+    border-radius: 20px 20px 20px 20px;
+    background-color:white; 
+    margin-left: 0px;
+    margin-top: 35px;
+    box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
+}
 
-
+.photoa6 img
+{
+    height: 154px;
+    width: 305px;
+    border-radius: 20px 20px 0px 0px;
+}
 
 
 /* Footer*/
@@ -654,6 +689,7 @@ footer
     justify-content: space-between;
     font-size: 0.8em;
     height: 175px;
+    width: auto;
     padding-left: 45px;
     padding-right: 400px;
 }
