@@ -12,7 +12,7 @@ body
     font-size : 1em;
     font-weight: 400;
     margin: 0%;
-    background-color: none;
+    background-color: green;
 }
 
 #bloc-page
@@ -22,7 +22,7 @@ body
     flex-direction: column;
     margin-left: 90px;
     margin-right: 50px;
-    background-color:none;
+    background-color:pink;
 }
 
 /* Définition du header*/
@@ -148,15 +148,7 @@ nav a
     
 }
 
-/* bouton en input
-#buttonr input
-{
-    border: none;
-    height: 50px;
-    width: 150px;
-    background-color:#0065FC ;
-}
-*/
+
 
 /* boutton Ordinateur et tablette*/
 #buttonrd button
@@ -317,15 +309,16 @@ font-size: 0.75em;
     text-decoration:none;
 }
 
+
 #logement a:hover
 {
     text-decoration:none;
 }
-
+/* 
 #logement a:visited
 {
     color: purple;
-}
+} */
 
 
 
@@ -478,6 +471,10 @@ margin-bottom: -15px;
     transition: all 150ms ease-out;
 }
 
+.cardp a
+{
+    display: flex;
+}
 
 
 .cardp:hover
