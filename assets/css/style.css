@@ -83,7 +83,6 @@ nav a
     text-decoration: none;
 }
 
-
 #inscription
 {
  padding: 33px;
@@ -104,8 +103,6 @@ nav a
     background-color: none;
     margin-top: 5px;
 }
-
-
 
 #intro
 {
@@ -816,15 +813,64 @@ footer a:hover
     #orga_activite
     {
         display: flex;
+        /* flex-direction: column; */
         flex-wrap: wrap;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         /* max-width: 835px; */
+    }
+
+    /* figure 
+    {
+        height: 160px;
+    } */
+
+    /* .photoa1 img 
+    {
+        width: 335px;
+        height: 112px;
+    }
+
+    .photoa2 img 
+    {
+        width: 335px;
+        height: 112px;
+    }
+
+    .photoa3 img 
+    {
+        width: 335px;
+        height: 112px;
+    }
+
+    .photoa4 img 
+    {
+        width: 335px;
+        height: 112px;
+    }
+
+    .photoa5 img 
+    {
+        width: 335px;
+        height: 112px;
+    }
+
+    .photoa6 img 
+    {
+        width: 335px;
+        height: 112px;
+    } */
+
+ 
+    .packact
+    {
+        display: flex;
+        flex-direction: column;
     }
 
     footer
     {
         padding-right: 300px;
-        padding-left: 200px;
+        padding-left: 100px;
         justify-content: space-between;
     }
 
