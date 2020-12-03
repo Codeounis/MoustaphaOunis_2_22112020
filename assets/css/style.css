@@ -815,7 +815,7 @@ footer a:hover
         display: flex;
         /* flex-direction: column; */
         flex-wrap: wrap;
-        /* justify-content: space-between; */
+        justify-content: space-between;
         /* max-width: 835px; */
     }
 
@@ -869,7 +869,7 @@ footer a:hover
 
     footer
     {
-        padding-right: 300px;
+        padding-right: 200px;
         padding-left: 100px;
         justify-content: space-between;
     }
