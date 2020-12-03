@@ -113,10 +113,12 @@ nav a
 
 #champ
 {
-    display: flex;
+    display: inline-flex;
     height: 50px;
-    width : 420px;
-   /* border: solid 2px red;*/
+    /* width : 420px; */
+   border: solid 0.5px #F2F2F2;
+   border-radius: 15px;
+   /* border: 25px; */
 }
 
 #pictor
@@ -141,8 +143,8 @@ nav a
     font-size: 1.1em;
     font-family: 'Raleway',Arial, Helvetica, sans-serif;
     font-weight: bold;
-    border-top: solid #F2F2F2 2px;
-    border-bottom: solid #F2F2F2 2px;
+    /* border-top: solid #F2F2F2 2px;
+    border-bottom: solid #F2F2F2 2px; */
 }
 
 #champr input:focus
@@ -172,6 +174,7 @@ nav a
     color: white;
     border-radius: 0 15px 15px 0;
     cursor: pointer;
+    /* display: none; */
 }
 
 /* Bouton Téléphone mobile*/
@@ -189,7 +192,7 @@ nav a
     font-size: 1.2em;
     font-weight: bold;
     color: white;
-    border-radius: 0 15px 15px 0;
+    border-radius: 15px 15px 15px 15px;
     cursor: pointer;
     display: none;
 }
