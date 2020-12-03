@@ -821,6 +821,106 @@ footer a:hover
         justify-content: space-between;
         /* max-width: 835px; */
     }
+ 
+    .packact
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer
+    {
+        padding-right: 200px;
+        padding-left: 100px;
+        justify-content: space-between;
+    }
+
+}
+
+@media screen and (max-width:1000px)
+{
+   header
+   {
+       display: inline-flex;
+       /* flex-direction: column; */
+       flex-wrap: wrap;
+       justify-content: space-between;
+       width: 375px;
+
+   }
+
+   header :nth-child(2)
+   {
+       order:3 ;
+   }
+
+   #inscription
+   {
+       padding-top: 45px;
+   }
+
+   nav
+   {
+       margin: 0;
+       border-bottom: solid 2px #F2F2F2;
+   }
+    
+   nav :nth-child(1)
+   {
+       margin-right: 40px;
+   }
+   .bouton_nav
+   {
+    padding: 15px;
+    border-top-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: white;
+   }
+
+   .bouton_nav:hover
+{
+    border-bottom-color:#0065FC;
+}
+
+
+    #logement
+    {
+        background-color:none;
+        flex-direction:column;
+    }
+
+    #populaire
+    {
+        max-width: 815px;
+        margin-top: 25px;
+    }
+    .cardsp
+    {
+        display: flex;
+        flex-wrap: wrap;
+        /* max-width: 835px; */
+        justify-content: space-around;
+       
+    }
+
+    .cardp
+    {
+        margin-top: 25px;
+    }
+
+    #activite
+    {
+        max-width: 920px;
+    }
+    #orga_activite
+    {
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* max-width: 835px; */
+    }
 
     /* figure 
     {
@@ -876,5 +976,12 @@ footer a:hover
         padding-left: 100px;
         justify-content: space-between;
     }
+  
+
+    header
+    {
+        background-color:none;
+    }
+    
 
 }
