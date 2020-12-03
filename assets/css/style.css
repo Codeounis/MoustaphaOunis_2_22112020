@@ -982,6 +982,13 @@ footer a:hover
     {
         background-color:none;
     }
-    
 
+    #buttonrd 
+{
+    display: none;
 }
+    #buttonrm button
+    {
+       display: initial;
+    }
+} 
