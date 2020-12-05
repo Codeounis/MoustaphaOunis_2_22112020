@@ -1,4 +1,4 @@
-/* importations + media querie*/
+/* importations */
 
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -130,7 +130,7 @@ nav a
     text-align: center;
     vertical-align: center;
     background-color:  #F2F2F2;
-    border-radius: 25% 0 0 25%;
+    border-radius: 15px 0 0 15px;
 }
 
 #champr input
@@ -842,6 +842,8 @@ footer a:hover
     {
         width: 280px;
         height: 132px;
+        object-fit: cover;
+        object-position : 50% 60%;
     }
 
     .photoa2
@@ -992,7 +994,12 @@ footer a:hover
     #logement
     {
         background-color:none;
-        flex-direction:column;
+        flex-direction:column-reverse;
+    }
+
+    #hebergement
+    {
+        margin-right: 0;
     }
 
     #populaire
@@ -1016,8 +1023,11 @@ footer a:hover
 
     #activite
     {
-        max-width: 920px;
+        max-width: 900px;
+        align-items: center;
     }
+
+    
     #orga_activite
     {
         display: flex;
@@ -1033,60 +1043,111 @@ footer a:hover
     }
 
     .photoa1
-{
-    /* height: auto;
-    width: auto; */
-    border-radius: 20px 20px 20px 20px;
-    background-color:white; 
-    margin-left: 0px;
-    margin-right: 43px;
-    box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
-    display: inline-flex;
-}
-
-    .photoa1 img 
     {
-        width: 335px;
-        height: 112px;
+        height: 194px;
+        border-radius: 20px 20px 20px 20px;
+        background-color:white; 
+        margin: 10px;
+        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
+        display: inline-flex;
     }
-
-    .photoa2 img 
-    {
-        width: 335px;
-        height: 112px;
-    }
-
-    .photoa3 img 
-    {
-        width: 335px;
-        height: 112px;
-    }
-
-    .photoa4 img 
-    {
-        width: 335px;
-        height: 112px;
-    }
-
-    .photoa5 img 
-    {
-        width: 335px;
-        height: 112px;
-    }
-
-    .photoa6 img 
-    {
-        width: 335px;
-        height: 112px;
-    }
-
- 
-    .packact
-    {
-        display: flex;
-        flex-direction: column;
-    }
-
+    
+        .photoa1 img 
+        {
+            width: 280px;
+            height: 132px;
+            object-fit: cover;
+            object-position : 50% 60%;
+        }
+    
+        .photoa2
+        {
+            height: 194px;
+            border-radius: 20px 20px 20px 20px;
+            background-color:white; 
+            margin: 10px;
+            box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
+            display: inline-flex;
+        }
+    
+        .photoa2 img 
+        {
+            width: 280px;
+            height: 132px;
+        }
+    
+        .photoa3
+        {
+            height: 194px;
+            border-radius: 20px 20px 20px 20px;
+            background-color:white; 
+            margin: 10px;
+            box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
+            display: inline-flex;
+        }
+    
+        .photoa3 img 
+        {
+            width: 280px;
+            height: 132px;
+        }
+    
+        .photoa4
+        {
+            height: 194px;
+            border-radius: 20px 20px 20px 20px;
+            background-color:white; 
+            margin: 10px;
+            box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
+            display: inline-flex;
+        }
+    
+    
+        .photoa4 img 
+        {
+            width: 280px;
+            height: 132px;
+        }
+    
+        .photoa5
+        {
+            height: 194px;
+            border-radius: 20px 20px 20px 20px;
+            background-color:white; 
+            margin: 10px;
+            box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
+            display: inline-flex;
+        }
+    
+        .photoa5 img 
+        {
+            width: 280px;
+            height: 132px;
+        }
+    
+        .photoa6
+        {
+            height: 194px;
+            border-radius: 20px 20px 20px 20px;
+            background-color:white; 
+            margin: 10px;
+            box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
+            display: inline-flex;
+        }
+    
+        
+        .photoa6 img 
+        {
+            width: 280px;
+            height: 132px;
+        }
+    
+     
+        .packact
+        {
+            display: flex;
+            /* flex-direction: column; */
+        }
     footer
     {
         padding-right: 200px;
