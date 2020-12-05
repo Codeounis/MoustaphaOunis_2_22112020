@@ -561,7 +561,7 @@ figure p
 
 .photoa1
 {
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     background-color:white; 
     margin-left: 0px;
     margin-right: 43px;
@@ -573,11 +573,12 @@ figure p
     height: 380px;
     width: 305px;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 } 
 
 .photoa2
 {
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     background-color:white; 
     margin-left: 0px;
     margin-right: 43px;
@@ -589,11 +590,12 @@ figure p
     height: 182px;
     width: 305px;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
 .photoa3
 {
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     background-color:white; 
     margin-left: 0px;
     margin-right: 43px;
@@ -610,7 +612,7 @@ figure p
 
 .photoa4
 {
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     background-color:white; 
     margin-left: 0px;
     margin-right: 44px;
@@ -622,12 +624,13 @@ figure p
     height: 380px;
     width: 305px;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
     
 } 
 
 .photoa5
 {
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     background-color:white; 
     margin-left: 0px;
     box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
@@ -642,7 +645,7 @@ figure p
 
 .photoa6
 {
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     background-color:white; 
     margin-left: 0px;
     margin-top: 35px;
@@ -738,7 +741,7 @@ footer a:hover
     .photoa1
     {
         height: 194px;
-        border-radius: 20px 20px 20px 20px;
+        border-radius: 20px;
         background-color:white; 
         margin: 10px;
         box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
@@ -756,7 +759,7 @@ footer a:hover
     .photoa2
     {
         height: 194px;
-        border-radius: 20px 20px 20px 20px;
+        border-radius: 20px;
         background-color:white; 
         margin: 10px;
         box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
@@ -772,7 +775,7 @@ footer a:hover
     .photoa3
     {
         height: 194px;
-        border-radius: 20px 20px 20px 20px;
+        border-radius: 20px;
         background-color:white; 
         margin: 10px;
         box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
@@ -788,7 +791,7 @@ footer a:hover
     .photoa4
     {
         height: 194px;
-        border-radius: 20px 20px 20px 20px;
+        border-radius: 20px;
         background-color:white; 
         margin: 10px;
         box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
@@ -807,7 +810,7 @@ footer a:hover
     .photoa5
     {
         height: 194px;
-        border-radius: 20px 20px 20px 20px;
+        border-radius: 20px;
         background-color:white; 
         margin: 10px;
         box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
@@ -823,7 +826,7 @@ footer a:hover
     .photoa6
     {
         height: 194px;
-        border-radius: 20px 20px 20px 20px;
+        border-radius: 20px;
         background-color:white; 
         margin: 10px;
         box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
@@ -841,7 +844,6 @@ footer a:hover
     .packact
     {
         display: flex;
-        /* flex-direction: column; */
     }
 
     footer
@@ -905,7 +907,7 @@ footer a:hover
     .photoa1
     {
         height: 194px;
-        border-radius: 20px 20px 20px 20px;
+        border-radius: 20px;
         background-color:white; 
         margin: 10px;
         box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
@@ -923,7 +925,7 @@ footer a:hover
     .photoa2
     {
         height: 194px;
-        border-radius: 20px 20px 20px 20px;
+        border-radius: 20px;
         background-color:white; 
         margin: 10px;
         box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
@@ -939,7 +941,7 @@ footer a:hover
     .photoa3
     {
         height: 194px;
-        border-radius: 20px 20px 20px 20px;
+        border-radius: 20px;
         background-color:white; 
         margin: 10px;
         box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
@@ -955,7 +957,7 @@ footer a:hover
     .photoa4
     {
         height: 194px;
-        border-radius: 20px 20px 20px 20px;
+        border-radius: 20px;
         background-color:white; 
         margin: 10px;
         box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
@@ -974,7 +976,7 @@ footer a:hover
     .photoa5
     {
         height: 194px;
-        border-radius: 20px 20px 20px 20px;
+        border-radius: 20px;
         background-color:white; 
         margin: 10px;
         box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
@@ -990,7 +992,7 @@ footer a:hover
     .photoa6
     {
         height: 194px;
-        border-radius: 20px 20px 20px 20px;
+        border-radius: 20px;
         background-color:white; 
         margin: 10px;
         box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
@@ -1017,7 +1019,6 @@ footer a:hover
         justify-content: space-between;
     }
 
-
     header
     {
         background-color:none;
@@ -1037,48 +1038,6 @@ footer a:hover
         max-width: 90%;
     }
     
-    /* header
-   {
-       display: inline-flex;
-        flex-wrap: wrap;
-       justify-content: space-between;
-       width: 375px;
-   } 
- 
-   header :nth-child(2)
-   {
-       order:3 ;
-   } 
-
-   #inscription
-   {
-       padding-top: 45px;
-   } 
-
-   nav
-   {
-       margin: 0;
-       border-bottom: solid 2px #F2F2F2;
-   }
-    
-   nav :nth-child(1)
-   {
-       margin-right: 40px;
-   }
-    .bouton_nav
-   {
-    padding: 15px;
-    border-top-style: none;
-    border-bottom-style: solid;
-    border-bottom-width: 3px;
-    border-bottom-color: white;
-   }
-
-   .bouton_nav:hover
-{
-    border-bottom-color:#0065FC;
-}  */
-
     #trouver
     {
         max-width: 90%;
@@ -1141,109 +1100,108 @@ footer a:hover
     .photoa1
     {
         height: 194px;
-        border-radius: 20px 20px 20px 20px;
+        border-radius: 20px;
         background-color:white; 
         margin: 10px;
         box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
+
+    .photoa1 img 
+    {
+        width: 230px;
+        height: 132px;
+        object-fit: cover;
+        object-position : 50% 60%;
+    }
+
+    .photoa2
+    {
+        height: 194px;
+        border-radius: 20px;
+        background-color:white; 
+        margin: 10px;
+        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
+        display: inline-flex;
+    }
+
+    .photoa2 img 
+    {
+        width: 230px;
+        height: 132px;
+    }
+
+    .photoa3
+    {
+        height: 194px;
+        border-radius: 20px;
+        background-color:white; 
+        margin: 10px;
+        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
+        display: inline-flex;
+    }
+
+    .photoa3 img 
+    {
+        width: 230px;
+        height: 132px;
+    }
+
+    .photoa4
+    {
+        height: 194px;
+        border-radius: 20px;
+        background-color:white; 
+        margin: 10px;
+        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
+        display: inline-flex;
+    }
+
+
+    .photoa4 img 
+    {
+        width: 230px;
+        height: 132px;
+    }
+
+    .photoa5
+    {
+        height: 194px;
+        border-radius: 20px;
+        background-color:white; 
+        margin: 10px;
+        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
+        display: inline-flex;
+    }
+
+    .photoa5 img 
+    {
+        width: 230px;
+        height: 132px;
+    }
+
+    .photoa6
+    {
+        height: 194px;
+        border-radius: 20px;
+        background-color:white; 
+        margin: 10px;
+        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
+        display: inline-flex;
+    }
+
     
-        .photoa1 img 
-        {
-            width: 230px;
-            height: 132px;
-            object-fit: cover;
-            object-position : 50% 60%;
-        }
+    .photoa6 img 
+    {
+        width: 230px;
+        height: 132px;
+    }
+
     
-        .photoa2
-        {
-            height: 194px;
-            border-radius: 20px 20px 20px 20px;
-            background-color:white; 
-            margin: 10px;
-            box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
-            display: inline-flex;
-        }
-    
-        .photoa2 img 
-        {
-            width: 230px;
-            height: 132px;
-        }
-    
-        .photoa3
-        {
-            height: 194px;
-            border-radius: 20px 20px 20px 20px;
-            background-color:white; 
-            margin: 10px;
-            box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
-            display: inline-flex;
-        }
-    
-        .photoa3 img 
-        {
-            width: 230px;
-            height: 132px;
-        }
-    
-        .photoa4
-        {
-            height: 194px;
-            border-radius: 20px 20px 20px 20px;
-            background-color:white; 
-            margin: 10px;
-            box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
-            display: inline-flex;
-        }
-    
-    
-        .photoa4 img 
-        {
-            width: 230px;
-            height: 132px;
-        }
-    
-        .photoa5
-        {
-            height: 194px;
-            border-radius: 20px 20px 20px 20px;
-            background-color:white; 
-            margin: 10px;
-            box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
-            display: inline-flex;
-        }
-    
-        .photoa5 img 
-        {
-            width: 230px;
-            height: 132px;
-        }
-    
-        .photoa6
-        {
-            height: 194px;
-            border-radius: 20px 20px 20px 20px;
-            background-color:white; 
-            margin: 10px;
-            box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
-            display: inline-flex;
-        }
-    
-        
-        .photoa6 img 
-        {
-            width: 230px;
-            height: 132px;
-        }
-    
-     
-        .packact
-        {
-            display: flex;
-            /* flex-direction: column; */
-        }
+    .packact
+    {
+        display: flex;
+    }
     footer
     {
         padding-right: 10%;
@@ -1256,29 +1214,16 @@ footer a:hover
     {
         background-color:none;
     }
-
-    /* #buttonrd 
-{
-    display: none;
-}
-    #buttonrm button
-    {
-       display: initial;
-    } */
 } 
 
 @media screen and (max-width:770px)  /* 720 !!!!!!!!!!!!!!!!!!!!!!!*/
 {
 
-    #page 
+    /* #page 
     {
         align-items: center;
-    }
+    } */
 
-    header
-    {
-        max-width: 95%;
-    }
     
      header
    {
@@ -1300,8 +1245,10 @@ footer a:hover
 
    nav
    {
-       margin: 0;
        border-bottom: solid 2px #F2F2F2;
+       width: 95%;
+       justify-content: center;
+       margin-left: 0;
    }
     
    nav :nth-child(1)
@@ -1326,6 +1273,36 @@ footer a:hover
     {
         max-width: 90%;
     }
+
+    #recherche 
+    {
+        flex-direction: column;
+    }
+
+    #recherche p {
+        margin: 10px;
+    }
+
+    #pictoi {
+        height: 15px;
+        width: 15px;
+        color: #0065FC;
+        border-radius: 50%;
+        border: solid 2px #F2F2F2;
+        text-align: center;
+        line-height: 16px;
+        margin-top: 17.5px;
+        margin-right: 11px;
+        font-size: 8px;
+    }
+    .noir {
+        font-size: 16px;
+    }
+
+    #info p {
+        text-align: start;
+    }
+
 
     #logement
     {
@@ -1357,8 +1334,6 @@ footer a:hover
         border-radius: 20px;
         border: solid 4px white;
         overflow: hidden;
-        /* margin-top: 25px;
-        margin-right: 30px; */
         margin: 10px 0 0 0;
         box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         transition: all 150ms ease-out;
@@ -1373,7 +1348,7 @@ footer a:hover
     #populaire
     {
         padding: 10px;
-        margin-top: 25px;
+        margin-top: 8px;
     }
 
     #populairet
@@ -1396,148 +1371,156 @@ footer a:hover
 
     #activite
     {
-        max-width: 460px;
-        align-items: center;
+        /* max-width: 460px; */
+        display: inline-flex;
+        width: 95%;
+        align-items: flex-start;
+        
+        margin-top: 0px;
+    }
+
+    #activite h2 
+    {
+        text-align: start;
     }
 
     
     #orga_activite
     {
-        display: flex;
+        display: inline-flex;
         flex-direction: column;
-        justify-content: center;
+        /* align-items: center; */
     }
 
     .packact
         {
-            display: flex;
+            display: inline-flex;
             flex-direction: column;
+            width: 100%;
         }
 
     figure 
     {
-        max-width: 230px;
+        width: 95%;
+        max-width: 440px;
     }
-
+    
     .photoa1
     {
-        height: 194px;
-        border-radius: 20px 20px 20px 20px;
+        height: 190px;
+        border-radius: 20px;
         background-color:white; 
         margin: 10px;
         box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
     
-        .photoa1 img 
-        {
-            width: 230px;
-            height: 132px;
-            object-fit: cover;
-            object-position : 50% 60%;
-        }
+    .photoa1 img 
+    {
+        width: 100%;
+        height: 135px;
+        object-fit: cover;
+        object-position : 50% 60%;
+    }
+
+    .photoa2
+    {
+        height: 190px;
+        border-radius: 20px;
+        background-color:white; 
+        margin: 10px;
+        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
+        display: inline-flex;
+    }
+
+    .photoa2 img 
+    {
+        width: 100%;
+        height: 135px;
+        object-fit: cover;
+    }
+
+    .photoa3
+    {
+        height: 190px;
+        border-radius: 20px;
+        background-color:white; 
+        margin: 10px;
+        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
+        display: inline-flex;
+    }
+
+    .photoa3 img 
+    {
+        width: 100%;
+        height: 135px;
+    }
+
+    .photoa4
+    {
+        height: 190px;
+        border-radius: 20px;
+        background-color:white; 
+        margin: 10px;
+        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
+        display: inline-flex;
+    }
+
+
+    .photoa4 img 
+    {
+        width: 100%;
+        height: 132px;
+    }
+
+    .photoa5
+    {
+        height: 190px;
+        border-radius: 20px;
+        background-color:white; 
+        margin: 10px;
+        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
+        display: inline-flex;
+    }
+
+    .photoa5 img 
+    {
+        width: 100%;
+        height: 132px;
+    }
+
+    .photoa6
+    {
+        height: 190px;
+        border-radius: 20px;
+        background-color:white; 
+        margin: 10px;
+        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
+        display: inline-flex;
+    }
+
     
-        .photoa2
-        {
-            height: 194px;
-            border-radius: 20px 20px 20px 20px;
-            background-color:white; 
-            margin: 10px;
-            box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
-            display: inline-flex;
-        }
+    .photoa6 img 
+    {
+        width: 100%;
+        height: 132px;
+    }
+
     
-        .photoa2 img 
-        {
-            width: 230px;
-            height: 132px;
-        }
-    
-        .photoa3
-        {
-            height: 194px;
-            border-radius: 20px 20px 20px 20px;
-            background-color:white; 
-            margin: 10px;
-            box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
-            display: inline-flex;
-        }
-    
-        .photoa3 img 
-        {
-            width: 230px;
-            height: 132px;
-        }
-    
-        .photoa4
-        {
-            height: 194px;
-            border-radius: 20px 20px 20px 20px;
-            background-color:white; 
-            margin: 10px;
-            box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
-            display: inline-flex;
-        }
-    
-    
-        .photoa4 img 
-        {
-            width: 230px;
-            height: 132px;
-        }
-    
-        .photoa5
-        {
-            height: 194px;
-            border-radius: 20px 20px 20px 20px;
-            background-color:white; 
-            margin: 10px;
-            box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
-            display: inline-flex;
-        }
-    
-        .photoa5 img 
-        {
-            width: 230px;
-            height: 132px;
-        }
-    
-        .photoa6
-        {
-            height: 194px;
-            border-radius: 20px 20px 20px 20px;
-            background-color:white; 
-            margin: 10px;
-            box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
-            display: inline-flex;
-        }
-    
-        
-        .photoa6 img 
-        {
-            width: 230px;
-            height: 132px;
-        }
-    
-     
         
     footer
     {
         padding-right: 10%;
         padding-left: 10%;
-        justify-content: space-between;
+        display:flex;
+        flex-direction: column;
+        padding-bottom: 10%;
     }
   
-
-    header
-    {
-        background-color:none;
-    }
-
     #buttonrd 
-{
-    display: none;
-}
+    {
+        display: none;
+    }
     #buttonrm button
     {
        display: initial;
