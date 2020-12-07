@@ -66,7 +66,6 @@ nav
     margin-left:auto;
     display: flex;
     font-size: 1em;
-    
 }
 
 nav a
@@ -140,14 +139,10 @@ nav a
     outline: none;
 }
 
-
 #champr input::placeholder
 {
     color:black;
-    
 }
-
-
 
 /* boutton Ordinateur et tablette*/
 #buttonrd button
@@ -166,9 +161,6 @@ nav a
 
 /* Bouton Téléphone mobile*/
 
-
-
-
 #buttonrm button
 {
     border: none;
@@ -184,7 +176,7 @@ nav a
     display: none;
 }
 
-/*ition filtres de recherche*/
+/* filtres de recherche*/
 
 #recherche
 {
@@ -201,7 +193,6 @@ nav a
     margin-right:23px;
 }
 
-
 #filtres
 {
     background-color:white;
@@ -209,7 +200,6 @@ nav a
     flex-wrap: wrap;
     padding-top: 5px;
 }
-
 
 .filtre
 {
@@ -247,7 +237,6 @@ font-size: 0.75em;
     color: #0065FC ;
 }
 
-
 .noir
 {
     color: black;
@@ -257,7 +246,6 @@ font-size: 0.75em;
     margin-right: 15px;
     font-size: 18px;
 }
-
 
 #info
 {
@@ -334,7 +322,6 @@ font-weight: bold;
     max-width: 835px;
 }
 
-
 .card
 {
     background-color:white;
@@ -356,7 +343,6 @@ font-weight: bold;
     box-shadow: 0px 4px 10px 3px #C4c4c4;
 }
 
-
 .picturecard
 {
     height: 120px;
@@ -368,8 +354,6 @@ font-weight: bold;
     padding-left: 15px;
 }
 
-
-
 .star
 {
     color: #0065FC;
@@ -377,26 +361,21 @@ font-weight: bold;
     margin-top: -8px;
 }
 
-
 .star4
 {
     color: #F2F2F2;
 }
-
 
 .star3
 {
     color: #F2F2F2;
 }
 
-
-
 .card h4
 {
 margin-top: 5px;
 margin-bottom: -15px;
 }
-
 
 .card p
 {
@@ -625,7 +604,6 @@ figure p
     width: 305px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
-    
 } 
 
 .photoa5
@@ -671,7 +649,6 @@ footer
     height: auto;
     padding-left: 80px;
     padding-right: 400px;
-    
 }
 
 .foot
@@ -700,6 +677,8 @@ footer a:hover
     text-decoration: underline black;
 }
 
+/* -------------------------------------------DEBUT DES MEDIAS QUERIES ------------------------------------*/
+
 @media screen and (max-width:1400px)
 {
     #logement
@@ -717,9 +696,7 @@ footer a:hover
     {
         display: flex;
         flex-wrap: wrap;
-        /* max-width: 835px; */
         justify-content: space-around;
-       
     }
 
     .cardp
@@ -731,6 +708,7 @@ footer a:hover
     {
         max-width: 920px;
     }
+    
     #orga_activite
     {
         display: flex;
@@ -744,7 +722,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -762,7 +739,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -778,7 +754,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -794,7 +769,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -813,7 +787,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -829,7 +802,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -910,7 +882,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -928,7 +899,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -944,7 +914,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -960,7 +929,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -979,7 +947,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -995,7 +962,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -1103,7 +1069,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -1121,7 +1086,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -1137,7 +1101,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -1153,7 +1116,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -1170,7 +1132,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -1186,7 +1147,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -1407,7 +1367,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
     
@@ -1425,7 +1384,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -1442,7 +1400,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -1458,7 +1415,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -1475,7 +1431,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -1491,7 +1446,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -1714,7 +1668,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
     
@@ -1732,7 +1685,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -1749,7 +1701,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -1765,7 +1716,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -1782,7 +1732,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
@@ -1798,7 +1747,6 @@ footer a:hover
         border-radius: 20px;
         background-color:white; 
         margin: 10px;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
         display: inline-flex;
     }
 
