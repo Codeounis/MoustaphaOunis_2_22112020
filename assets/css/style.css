@@ -1,8 +1,6 @@
 /* importations */
 
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 
 /*Définition corps de la page*/
 
@@ -26,9 +24,9 @@ body
 
 #page
 {
-display: inline-flex;
-flex-direction: column;
-align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 /* Définition du header*/
@@ -47,8 +45,8 @@ header
 
 .bouton_nav
 {
-  padding: 30px;
-  border-top: solid 3px white;
+    padding: 30px;
+    border-top: solid 3px white;
 }
 
 .bouton_nav:hover
@@ -76,9 +74,9 @@ nav a
 
 #inscription
 {
- padding: 33px;
- font-size: 1em;
- font-weight: bold;
+    padding: 33px;
+    font-size: 1em;
+    font-weight: bold;
 }
 
 #inscription a
@@ -91,7 +89,6 @@ nav a
 
 #trouver
 {
-    background-color: none;
     margin-top: 5px;
 }
 
@@ -106,8 +103,8 @@ nav a
 {
     display: inline-flex;
     height: 50px;
-   border: solid 0.5px #F2F2F2;
-   border-radius: 20px;
+    border: solid 0.5px #F2F2F2;
+    border-radius: 20px;
 }
 
 #pictor
@@ -145,6 +142,7 @@ nav a
 }
 
 /* boutton Ordinateur et tablette*/
+
 #buttonrd button
 {
     border: none;
@@ -207,7 +205,6 @@ nav a
     align-items: center;
     margin-left: 15px;
     margin-top: 7px;
-    background-color: white;
     height: 32px;
     border-radius: 30px;
     border: solid 2px #F2F2F2;
@@ -222,14 +219,14 @@ nav a
 
 .picto
 {
-text-align: center;
-vertical-align: center;
-line-height: 35px;
-height: 35px;
-width: 35px;
-background-color:#DEEBFF ;
-border-radius: 50%;
-font-size: 0.75em;
+    text-align: center;
+    vertical-align: center;
+    line-height: 35px;
+    height: 35px;
+    width: 35px;
+    background-color:#DEEBFF ;
+    border-radius: 50%;
+    font-size: 0.75em;
 }
 
 .picto i
@@ -250,7 +247,6 @@ font-size: 0.75em;
 #info
 {
     display: flex;
-    background-color:white;
     margin-top: 5px;
     margin-bottom: 10px;
 }
@@ -281,7 +277,6 @@ font-size: 0.75em;
 {
     display: inline-flex;
     flex-direction: row;
-    background-color:none;
     height: auto;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -310,8 +305,8 @@ font-size: 0.75em;
 
 .title
 {
-font-size: 1.3em;
-font-weight: bold;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
 #orga_heber
@@ -373,8 +368,8 @@ font-weight: bold;
 
 .card h4
 {
-margin-top: 5px;
-margin-bottom: -15px;
+    margin-top: 5px;
+    margin-bottom: -15px;
 }
 
 .card p
@@ -473,7 +468,6 @@ margin-bottom: -15px;
 #activite
 {
     margin-top: 0px;
-    background-color: none;
     display: flex;
     flex-direction: column;
     max-width: 1350px
@@ -516,7 +510,6 @@ figure
     max-width: 305px;
 }
 
-
 figure p
 {
     padding-left: 20px;
@@ -541,7 +534,6 @@ figure p
 .photoa1
 {
     border-radius: 20px;
-    background-color:white; 
     margin-left: 0px;
     margin-right: 43px;
     box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
@@ -558,7 +550,6 @@ figure p
 .photoa2
 {
     border-radius: 20px;
-    background-color:white; 
     margin-left: 0px;
     margin-right: 43px;
     box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
@@ -575,7 +566,6 @@ figure p
 .photoa3
 {
     border-radius: 20px;
-    background-color:white; 
     margin-left: 0px;
     margin-right: 43px;
     margin-top: 35px;
@@ -591,8 +581,7 @@ figure p
 
 .photoa4
 {
-    border-radius: 20px;
-    background-color:white; 
+    border-radius: 20px; 
     margin-left: 0px;
     margin-right: 44px;
     box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
@@ -609,7 +598,6 @@ figure p
 .photoa5
 {
     border-radius: 20px;
-    background-color:white; 
     margin-left: 0px;
     box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
 }
@@ -623,8 +611,7 @@ figure p
 
 .photoa6
 {
-    border-radius: 20px;
-    background-color:white; 
+    border-radius: 20px; 
     margin-left: 0px;
     margin-top: 35px;
     box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
@@ -678,12 +665,12 @@ footer a:hover
 }
 
 /* -------------------------------------------DEBUT DES MEDIAS QUERIES ------------------------------------*/
+/*------------------- 1400px/ 1000px/ 920px / 770px/ Max device-width 500px  */
 
 @media screen and (max-width:1400px)
 {
     #logement
     {
-        background-color:none;
         flex-direction:column-reverse;
     }
 
@@ -720,7 +707,6 @@ footer a:hover
     {
         height: 194px;
         border-radius: 20px;
-        background-color:white; 
         margin: 10px;
         display: inline-flex;
     }
@@ -737,7 +723,6 @@ footer a:hover
     {
         height: 194px;
         border-radius: 20px;
-        background-color:white; 
         margin: 10px;
         display: inline-flex;
     }
@@ -752,7 +737,6 @@ footer a:hover
     {
         height: 194px;
         border-radius: 20px;
-        background-color:white; 
         margin: 10px;
         display: inline-flex;
     }
@@ -767,11 +751,9 @@ footer a:hover
     {
         height: 194px;
         border-radius: 20px;
-        background-color:white; 
         margin: 10px;
         display: inline-flex;
     }
-
 
     .photoa4 img 
     {
@@ -785,7 +767,6 @@ footer a:hover
     {
         height: 194px;
         border-radius: 20px;
-        background-color:white; 
         margin: 10px;
         display: inline-flex;
     }
@@ -800,19 +781,16 @@ footer a:hover
     {
         height: 194px;
         border-radius: 20px;
-        background-color:white; 
         margin: 10px;
         display: inline-flex;
     }
 
-    
     .photoa6 img 
     {
         width: 280px;
         height: 132px;
     }
 
- 
     .packact
     {
         display: flex;
@@ -880,7 +858,6 @@ footer a:hover
     {
         height: 194px;
         border-radius: 20px;
-        background-color:white; 
         margin: 10px;
         display: inline-flex;
     }
@@ -897,7 +874,6 @@ footer a:hover
     {
         height: 194px;
         border-radius: 20px;
-        background-color:white; 
         margin: 10px;
         display: inline-flex;
     }
@@ -912,7 +888,6 @@ footer a:hover
     {
         height: 194px;
         border-radius: 20px;
-        background-color:white; 
         margin: 10px;
         display: inline-flex;
     }
@@ -927,11 +902,9 @@ footer a:hover
     {
         height: 194px;
         border-radius: 20px;
-        background-color:white; 
         margin: 10px;
         display: inline-flex;
     }
-
 
     .photoa4 img 
     {
@@ -945,7 +918,6 @@ footer a:hover
     {
         height: 194px;
         border-radius: 20px;
-        background-color:white; 
         margin: 10px;
         display: inline-flex;
     }
@@ -960,7 +932,6 @@ footer a:hover
     {
         height: 194px;
         border-radius: 20px;
-        background-color:white; 
         margin: 10px;
         display: inline-flex;
     }
@@ -1066,8 +1037,7 @@ footer a:hover
     .photoa1
     {
         height: 194px;
-        border-radius: 20px;
-        background-color:white; 
+        border-radius: 20px; 
         margin: 10px;
         display: inline-flex;
     }
@@ -1083,8 +1053,7 @@ footer a:hover
     .photoa2
     {
         height: 194px;
-        border-radius: 20px;
-        background-color:white; 
+        border-radius: 20px; 
         margin: 10px;
         display: inline-flex;
     }
@@ -1099,7 +1068,6 @@ footer a:hover
     {
         height: 194px;
         border-radius: 20px;
-        background-color:white; 
         margin: 10px;
         display: inline-flex;
     }
@@ -1113,8 +1081,7 @@ footer a:hover
     .photoa4
     {
         height: 194px;
-        border-radius: 20px;
-        background-color:white; 
+        border-radius: 20px; 
         margin: 10px;
         display: inline-flex;
     }
@@ -1129,8 +1096,7 @@ footer a:hover
     .photoa5
     {
         height: 194px;
-        border-radius: 20px;
-        background-color:white; 
+        border-radius: 20px; 
         margin: 10px;
         display: inline-flex;
     }
@@ -1145,19 +1111,16 @@ footer a:hover
     {
         height: 194px;
         border-radius: 20px;
-        background-color:white; 
         margin: 10px;
         display: inline-flex;
     }
 
-    
     .photoa6 img 
     {
         width: 230px;
         height: 132px;
     }
 
-    
     .packact
     {
         display: flex;
@@ -1169,17 +1132,10 @@ footer a:hover
         justify-content: space-between;
     }
   
-
-    header
-    {
-        background-color:none;
-    }
 } 
 
 @media screen and (max-width:770px)  /* 720 !!!!!!!!!!!!!!!!!!!!!!!*/
 {
-
-
 
      header
    {
@@ -1189,14 +1145,21 @@ footer a:hover
        width: 375px;
    } 
  
+   nav
+   {
+       width: 100%;
+   }
+
    header :nth-child(2)
    {
        order:3 ;
+       margin-left: auto;
    } 
 
    #inscription
    {
        padding-top: 45px;
+       padding-right: 0px;
    } 
 
    nav
@@ -1259,7 +1222,6 @@ footer a:hover
         text-align: start;
     }
 
-
     #logement
     {
         background-color:none;
@@ -1284,22 +1246,15 @@ footer a:hover
     }
 
     .card {
-        background-color: white;
         height: 195px;
         width: 100%;
-        border-radius: 20px;
-        border: solid 4px white;
-        overflow: hidden;
-        margin: 10px 0 0 0;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
-        transition: all 150ms ease-out;
+        margin-right: 0;
     }
 
     .picturecard
     {
         width: 100%;
     }
-
 
     #populaire
     {
@@ -1327,7 +1282,6 @@ footer a:hover
 
     #activite
     {
-        /* max-width: 460px; */
         display: inline-flex;
         width: 95%;
         align-items: center;
@@ -1339,20 +1293,18 @@ footer a:hover
         text-align: start;
     }
 
-    
     #orga_activite
     {
         display: inline-flex;
         flex-direction: column;
-        /* align-items: center; */
     }
 
     .packact
-        {
-            display: inline-flex;
-            flex-direction: column;
-            width: 100%;
-        }
+    {
+        display: inline-flex;
+        flex-direction: column;
+        width: 100%;
+    }
 
     figure 
     {
@@ -1364,7 +1316,6 @@ footer a:hover
     {
         height: 190px;
         border-radius: 20px;
-        background-color:white; 
         margin: 10px;
         display: inline-flex;
     }
@@ -1381,7 +1332,6 @@ footer a:hover
     {
         height: 190px;
         border-radius: 20px;
-        background-color:white; 
         margin: 10px;
         display: inline-flex;
     }
@@ -1396,8 +1346,7 @@ footer a:hover
     .photoa3
     {
         height: 190px;
-        border-radius: 20px;
-        background-color:white; 
+        border-radius: 20px; 
         margin: 10px;
         display: inline-flex;
     }
@@ -1412,11 +1361,9 @@ footer a:hover
     {
         height: 190px;
         border-radius: 20px;
-        background-color:white; 
         margin: 10px;
         display: inline-flex;
     }
-
 
     .photoa4 img 
     {
@@ -1428,7 +1375,6 @@ footer a:hover
     {
         height: 190px;
         border-radius: 20px;
-        background-color:white; 
         margin: 10px;
         display: inline-flex;
     }
@@ -1443,20 +1389,16 @@ footer a:hover
     {
         height: 190px;
         border-radius: 20px;
-        background-color:white; 
         margin: 10px;
         display: inline-flex;
     }
 
-    
     .photoa6 img 
     {
         width: 100%;
         height: 70%;
     }
 
-    
-        
     footer
     {
         padding-right: 10%;
@@ -1476,10 +1418,8 @@ footer a:hover
     }
 } 
 
-@media screen and (max-device-width:500px)  /* 720 !!!!!!!!!!!!!!!!!!!!!!!*/
+@media screen and (max-device-width:500px)  /* 500 !!!!!!!!!!!!!!!!!!!!!!!*/
 {
-
-
 
      header
    {
@@ -1511,19 +1451,20 @@ footer a:hover
    {
        margin-right: 40px;
    }
+   
     .bouton_nav
    {
-    padding: 15px;
-    border-top-style: none;
-    border-bottom-style: solid;
-    border-bottom-width: 3px;
-    border-bottom-color: white;
-   }
+        padding: 15px;
+        border-top-style: none;
+        border-bottom-style: solid;
+        border-bottom-width: 3px;
+        border-bottom-color: white;
+    }
 
    .bouton_nav:hover
-{
-    border-bottom-color:#0065FC;
-}  
+    {
+        border-bottom-color:#0065FC;
+    }  
 
     #trouver
     {
@@ -1584,22 +1525,14 @@ footer a:hover
     }
 
     .card {
-        background-color: white;
         height: 195px;
         width: 100%;
-        border-radius: 20px;
-        border: solid 4px white;
-        overflow: hidden;
-        margin: 10px 0 0 0;
-        box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
-        transition: all 150ms ease-out;
     }
 
     .picturecard
     {
         width: 100%;
     }
-
 
     #populaire
     {
@@ -1627,11 +1560,9 @@ footer a:hover
 
     #activite
     {
-        /* max-width: 460px; */
         display: inline-flex;
         width: 95%;
         align-items: flex-start;
-        
         margin-top: 0px;
     }
 
@@ -1640,20 +1571,18 @@ footer a:hover
         text-align: start;
     }
 
-    
     #orga_activite
     {
         display: inline-flex;
         flex-direction: column;
-        /* align-items: center; */
     }
 
     .packact
-        {
-            display: inline-flex;
-            flex-direction: column;
-            width: 100%;
-        }
+    {
+        display: inline-flex;
+        flex-direction: column;
+        width: 100%;
+    }
 
     figure 
     {
@@ -1665,7 +1594,6 @@ footer a:hover
     {
         height: 190px;
         border-radius: 20px;
-        background-color:white; 
         margin: 10px;
         display: inline-flex;
     }
@@ -1682,7 +1610,6 @@ footer a:hover
     {
         height: 190px;
         border-radius: 20px;
-        background-color:white; 
         margin: 10px;
         display: inline-flex;
     }
@@ -1697,8 +1624,7 @@ footer a:hover
     .photoa3
     {
         height: 190px;
-        border-radius: 20px;
-        background-color:white; 
+        border-radius: 20px; 
         margin: 10px;
         display: inline-flex;
     }
@@ -1713,11 +1639,9 @@ footer a:hover
     {
         height: 190px;
         border-radius: 20px;
-        background-color:white; 
         margin: 10px;
         display: inline-flex;
     }
-
 
     .photoa4 img 
     {
@@ -1729,7 +1653,6 @@ footer a:hover
     {
         height: 190px;
         border-radius: 20px;
-        background-color:white; 
         margin: 10px;
         display: inline-flex;
     }
@@ -1744,20 +1667,16 @@ footer a:hover
     {
         height: 190px;
         border-radius: 20px;
-        background-color:white; 
         margin: 10px;
         display: inline-flex;
     }
 
-    
     .photoa6 img 
     {
         width: 100%;
         height: 70%;
     }
 
-    
-        
     footer
     {
         padding-right: 10%;
