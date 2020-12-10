@@ -323,7 +323,7 @@ nav a
     height: 195px;
     width: 240px;
     border-radius: 20px;
-    border: solid 4px white;
+    border: solid 4px transparent;
     overflow: hidden;
     margin-top: 25px;
     margin-right: 30px;   
@@ -334,7 +334,7 @@ nav a
 .card:hover
 {
     background-color:#DEEBFF;
-    border-color: #DEEBFF;
+    border-color: transparent;
     box-shadow: 0px 4px 10px 3px #C4c4c4;
 }
 
@@ -417,7 +417,7 @@ nav a
     margin-top: 35px;
     border-radius: 20px;
     display: flex;
-    border: solid 4px white;
+    border: solid 4px transparent;
     overflow: hidden;
     box-shadow: 0px 4px 10px 3px rgba(226,226,226,1);
     transition: all 150ms ease-out;
@@ -437,7 +437,7 @@ nav a
 {
     background-color: #DEEBFF;
     box-shadow: 0px 4px 10px 3px #C4c4c4;
-    border-color: #DEEBFF;
+    border-color: transparent;
 }
 
 .populairecard
@@ -482,7 +482,6 @@ nav a
 #orga_activite
 {
     display: flex;
-    background-color:none;
     margin-bottom: 40px;
     margin-top: 20px;
 }
@@ -502,7 +501,7 @@ section figure:hover
 {
     background-color: #DEEBFF;
     box-shadow: 0px 4px 10px 3px #C4c4c4;
-    border-color: #DEEBFF;
+    border-color: transparent;
 }
 
 figure
@@ -515,7 +514,7 @@ figure p
     padding-left: 20px;
     padding-top: 14px;
     padding-bottom: 15px;
-    font-family: 'Raleway'Arial, Helvetica, sans-serif;
+    font-family: 'Raleway',Arial, Helvetica, sans-serif;
     font-weight: bolder;  
     margin: 0;
 }
@@ -657,7 +656,6 @@ footer a
     color: black;
     text-decoration: none;
     margin-bottom: 30px;
-    font-weight: 0.8em;
 }
 
 footer a:hover
@@ -811,7 +809,6 @@ footer a:hover
    
     #logement
     {
-        background-color:none;
         flex-direction:column-reverse;
     }
 
@@ -957,10 +954,6 @@ footer a:hover
         justify-content: space-between;
     }
 
-    header
-    {
-        background-color:none;
-    }
 } 
 
 @media screen and (max-width:920px)  /* 920 !!!!!!!!!!!!!!!!!!!!!!!*/
@@ -983,7 +976,6 @@ footer a:hover
 
     #logement
     {
-        background-color:none;
         flex-direction:column-reverse;
         margin-top: 0;
     }
@@ -1225,7 +1217,6 @@ footer a:hover
 
     #logement
     {
-        background-color:none;
         flex-direction:column-reverse;
         margin-top: 0;
         min-width: 375px;
@@ -1419,7 +1410,7 @@ footer a:hover
     }
 } 
 
-@media screen and (max-device-width:500px)  /* 500 !!!!!!!!!!!!!!!!!!!!!!!*/
+@media screen and (max-width:7in) /* 500 !!!!!!!!!!!!!!!!!!!!!!!*/
 {
 
      header
@@ -1504,7 +1495,6 @@ footer a:hover
 
     #logement
     {
-        background-color:none;
         flex-direction:column-reverse;
         margin-top: 0;
         min-width: 375px;
